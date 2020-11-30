@@ -26,5 +26,4 @@ During calibration take feedback after running and keep calibrating the paramate
 amcl: Subscribes to scan messages (/scan), map data(/map) and reads transform messages from laser to base frame and base to odom. Determines the robots pose and publishes (/amcl_pose) and tf messages from odom to map frame.
 
 move_base: Subscribes to the pose data, scan messages, the goal pose, and map data. Integrates global_planner, navfn, base_local_planner, clear_costmap_recovery, costmap_2d, dwa_local_planner, nav_core, move_slow_and_clear, voxel_grid, rotate_recovery Generates costmap, global path and local path and publishes the same.
-# SLAM
-# SLAM
+
